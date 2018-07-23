@@ -1,3 +1,3 @@
-# global-error-handling-aspnetcore -start
+# Global Error Handling in ASP.NET Core Web API - START
 
-https://code-maze.com/global-error-handling-dotnetcore/
+https://code-maze.com/global-error-handling-aspnetcore/
