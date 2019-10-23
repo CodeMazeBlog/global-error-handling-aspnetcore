@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using LoggerService;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +9,6 @@ namespace GlobalErrorHandling.Controllers
     public class ValuesController : ControllerBase
     {
         private ILoggerManager _logger;
-
         public ValuesController(ILoggerManager logger)
         {
             _logger = logger;
