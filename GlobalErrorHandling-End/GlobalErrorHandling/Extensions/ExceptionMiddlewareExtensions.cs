@@ -20,8 +20,8 @@ namespace GlobalErrorHandling.Extensions
                     context.Response.ContentType = "application/json";
 
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
-                    if(contextFeature != null)
-                    { 
+                    if (contextFeature != null)
+                    {
                         logger.LogError($"Something went wrong: {contextFeature.Error}");
 
                         await context.Response.WriteAsync(new ErrorDetails()
