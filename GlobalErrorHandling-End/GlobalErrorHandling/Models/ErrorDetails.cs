@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json;
 
 namespace GlobalErrorHandling.Models
 {
@@ -9,7 +9,7 @@ namespace GlobalErrorHandling.Models
 
         public override string ToString() 
         { 
-            return JsonConvert.SerializeObject(this); 
+            return JsonSerializer.Serialize(this); 
         }
     }
 }
